@@ -1,0 +1,50 @@
+body {
+  font-size: 6em;
+  position: center;
+}
+header{
+  width: 100%;
+  top: 0px;
+  padding-top: 0%;
+
+
+}
+
+.namn {
+  float: left;
+  border: 10px solid black;
+  width: 15%%;
+  height: 100px;
+  left: 55%;
+  top: 300px;
+  position: absolute;
+
+}
+.namn1 {
+  float: left;
+  border: 2px solid black;
+
+}
+/* header{
+  float: right;
+} */
+
+
+.sidebar1 {
+    height: 100%; 
+    width: 25%; 
+    position: fixed;  
+    top: 0; 
+    left: 0;
+    background-color: gray; 
+  }
+
+  .sidebar2 {
+    height: 100%; 
+    width: 25%; 
+    position: left;
+    position: fixed; 
+    top: 0; 
+    right: 0;
+    background-color:gray; 
+  }
