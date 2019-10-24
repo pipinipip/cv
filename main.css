@@ -1,8 +1,9 @@
 body {
-  font-size: 6em;
   position: center;
+  margin: 0%;
 }
-header{
+
+header {
   width: 100%;
   top: 0px;
   padding-top: 0%;
@@ -11,40 +12,56 @@ header{
 }
 
 .namn {
-  float: left;
-  border: 10px solid black;
-  width: 15%%;
-  height: 100px;
-  left: 55%;
-  top: 300px;
-  position: absolute;
+  border-top: 2px solid rgba(0,0,0,0.7);
+  font-size: 30px;
+  display: block;
+  text-align: left;
+  padding: 1rem 0;
+}
+
+.pew {
+padding-bottom: 1em !important;
+padding-top: 1em !important;
+border: none !important;
+}
+
+.header-img {
+  width: 100%;
+  left: 25%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.nummer{
+  border-top: 2px solid rgba(0,0,0,0.7);
+
 
 }
-.namn1 {
-  float: left;
-  border: 2px solid black;
+.skills{
+  border-top: 2px solid rgba(0,0,0,0.7);
 
 }
-/* header{
-  float: right;
-} */
+.logga {
+width: 50%;
 
 
-.sidebar1 {
-    height: 100%; 
-    width: 25%; 
-    position: fixed;  
-    top: 0; 
-    left: 0;
-    background-color: gray; 
-  }
+}
+.row {
+  display: flex;
+}
 
-  .sidebar2 {
-    height: 100%; 
-    width: 25%; 
-    position: left;
-    position: fixed; 
-    top: 0; 
-    right: 0;
-    background-color:gray; 
-  }
+p {
+  font-size: 20px;
+}
+
+
+.container {
+  width: 1150px;
+  margin: auto;
+}
+.mig-img{
+width: 18em
+
+
+}
+
